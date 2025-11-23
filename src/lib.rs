@@ -6,6 +6,9 @@
 /// let result = learning_rust::add(1, 2);
 /// assert_eq!(result, 3);
 /// ```
+pub mod structs_and_traits;
+
+
 pub fn add(a: i32, b: i32) -> i32 {
     return a + b;
 }
